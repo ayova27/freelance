@@ -46,3 +46,19 @@ header{
 .nav a:focus{
     background-color: #242424;
 }
+.user-navigation{
+    display: flex;
+    gap: 1.6rem;
+}
+.user-navigation li{
+    list-style-image: url(../images/login.png);
+}
+#home{
+    display: flex;
+    justify-content: center;
+    padding: 12rem 0;
+}
+#home img{
+    min-width: 380px;
+    min-height: 163px;
+}
