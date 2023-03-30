@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+header{
+    background-color: #000;
+}
+.nav{
+    display: flex;
+    gap: 13%;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: d;
+}
