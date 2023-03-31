@@ -7,6 +7,7 @@
 
     --fs-normal: 1.6rem;
     --fs-large: 2.02rem;
+    --fs-big: 3rem;
 }
 
 *{
@@ -16,6 +17,7 @@
     list-style-type: none;
     color: #fff;
     text-transform: uppercase;
+    font-family: var(--font-default);
 }
 body{
     background-image: url(../images/background.png);
@@ -23,7 +25,6 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    color: #fff;
 }
 header{
     background-color: #000;
@@ -32,7 +33,7 @@ header{
 .nav{
     display: flex;
     gap: 13%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav ul{
@@ -61,4 +62,62 @@ header{
 #home img{
     min-width: 380px;
     min-height: 163px;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+.headings h2{
+    display: inline-block;
+    font-family: var(--font-default);
+    font-size: var(--fs-big);
+}
+.wrap{
+    display: flex;
+    padding: 2.9rem;
+}
+
+.cube{
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+
+    transform: rotate(45deg);
+}
+.cube-1{
+    position: relative;
+    left: 61.5em;     
+}
+.cube-2{
+    position: relative;
+    left: 86.55em;
+}
+.cube-3{
+    position: relative;
+    left: 111.7rem;
+}
+.impact-container{
+    font-family: var(--font-default);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+}
+.impact-container p{
+    color: #fff;
+}
+#news-and-photo{
+    display: flex;
+    justify-content: center;
+
+    background-color: #fff;
+    width: 94rem;
+    height: 42rem;
+}
+.news h2, p, time{
+    color: #000;
+}
+.photo h2, p{
+    color: #000;
 }
