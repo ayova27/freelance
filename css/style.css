@@ -94,13 +94,24 @@ header{
 
     background-color: #fff;
     width: 75rem;
-    height: 42rem;
-    margin-top: 15rem;
-    margin: 0 55rem;
+    height: 30rem;
+    margin: 10rem 55rem;
+}
+.news{
+    display: inline-block;
+    width: 37.5rem;
 }
 .news h2, p, time{
     color: #000;
+    
 }
 .photo h2, p{
     color: #000;
+}
+.news h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.news p{
+    margin: 
 }
