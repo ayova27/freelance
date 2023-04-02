@@ -96,6 +96,7 @@ header{
     width: 94rem;
     height: 42rem;
     margin-top: 15rem;
+    margin: 0 45rem;
 }
 .news h2, p, time{
     color: #000;
