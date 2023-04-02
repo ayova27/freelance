@@ -99,7 +99,7 @@ header{
 }
 .news{
     display: inline-block;
-    width: 37.5rem;
+    width: 30rem;
 }
 .news h2, p, time{
     color: #000;
@@ -113,5 +113,8 @@ header{
     margin-bottom: 1rem;
 }
 .news p{
-    margin: 
+    margin-bottom: 0.3rem;
+}
+.news button{
+    margin-bottom: ;
 }
