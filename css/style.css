@@ -90,12 +90,11 @@ header{
 } 
 #news-and-photo{
     display: flex;
-    justify-content: center;
-
     background-color: #fff;
-    width: 75rem;
+    width: 54rem;
     height: 30rem;
-    margin: 10rem 55rem;
+    margin: 10rem 59rem;
+    padding: 0  7rem;
 }
 .news{
     display: inline-block;
