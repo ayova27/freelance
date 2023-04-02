@@ -85,27 +85,17 @@ header{
 
     transform: rotate(45deg);
 }
-.cube-1{
-    position: relative;
-    left: 61.5em;     
-}
-.cube-2{
-    position: relative;
-    left: 86.55em;
-}
-.cube-3{
-    position: relative;
-    left: 111.7rem;
-}
 .impact-container{
     font-family: var(--font-default);
     font-weight: bold;
 
     display: flex;
     justify-content: center;
+    gap:;
 }
 .impact-container p{
     color: #fff;
+    text-align:center;
 }
 #news-and-photo{
     display: flex;
