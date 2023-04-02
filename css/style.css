@@ -75,30 +75,35 @@ header{
 }
 .impact-container{
     font-family: var(--font-default);
-    font-weight: bold;
-
+    font-size: var(--fs-large);
     display: flex;
     justify-content: center;
     text-align:center;
     gap: 6rem;
+
 }
 .impact-container p, h2{
     color: #fff;
 }
 .impact-container h2{
-    font-size: 2rem;
-} 
+    font-size: 3rem;
+    font-weight: bold;
+}
+.impact-container p{
+    font-weight: regular;
+}
 #news-and-photo{
     display: flex;
     background-color: #fff;
-    width: 54rem;
-    height: 30rem;
-    margin: 10rem 59rem;
-    padding: 0  7rem;
+    width: 120rem;
+    height: 50rem;
+    margin: 7rem 30rem;
 }
 .news{
     display: inline-block;
-    width: 30rem;
+    width: 22rem;
+    padding: 4rem 4rem;
+    font-size: var(--fs-normal);
 }
 .news h2, p, time{
     color: #000;
@@ -108,7 +113,6 @@ header{
     color: #000;
 }
 .news h2{
-    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 .news p{
@@ -116,4 +120,8 @@ header{
 }
 .news button{
     margin-bottom: ;
+}
+.photo{
+    width: 22rem;
+    padding: ;
 }
