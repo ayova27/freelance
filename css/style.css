@@ -93,10 +93,10 @@ header{
     justify-content: center;
 
     background-color: #fff;
-    width: 94rem;
+    width: 75rem;
     height: 42rem;
     margin-top: 15rem;
-    margin: 0 45rem;
+    margin: 0 55rem;
 }
 .news h2, p, time{
     color: #000;
