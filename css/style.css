@@ -63,24 +63,12 @@ header{
     min-width: 380px;
     min-height: 163px;
 }
-.headings{
-    display: flex;
-    justify-content: center;
-    gap: 20rem;
-}
-.headings h2{
-    display: inline-block;
-    font-family: var(--font-default);
-    font-size: var(--fs-big);
-}
-.wrap{
-    display: flex;
-    padding: 2.9rem;
-}
 
 .cube{
-    width: 28px;
-    height: 28px;
+    display: inline-block;
+    margin: 1.3rem 0;
+    width: 20px;
+    height: 20px;
     background-color: #fff;
 
     transform: rotate(45deg);
@@ -91,12 +79,15 @@ header{
 
     display: flex;
     justify-content: center;
-    gap:;
-}
-.impact-container p{
-    color: #fff;
     text-align:center;
+    gap: 6rem;
 }
+.impact-container p, h2{
+    color: #fff;
+}
+.impact-container h2{
+    font-size: 2rem;
+} 
 #news-and-photo{
     display: flex;
     justify-content: center;
@@ -104,6 +95,7 @@ header{
     background-color: #fff;
     width: 94rem;
     height: 42rem;
+    margin-top: 15rem;
 }
 .news h2, p, time{
     color: #000;
