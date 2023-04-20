@@ -105,14 +105,14 @@ header{
     padding: 4rem 4rem;
     font-size: var(--fs-normal);
 }
-.news h2, p, time{
+.news h1, p, time{
     color: #000;
     
 }
-.photo h2, p{
+.photo h1, p{
     color: #000;
 }
-.news h2{
+.news h1{
     margin-bottom: 1rem;
 }
 .news p{
@@ -123,5 +123,9 @@ header{
 }
 .photo{
     width: 22rem;
-    padding: ;
+    padding-left: 8rem;
+    padding-top: 4rem;
+}
+.photo h1{
+
 }
