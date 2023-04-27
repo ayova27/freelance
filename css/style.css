@@ -94,38 +94,36 @@ header{
 }
 #news-and-photo{
     display: flex;
+    justify-content: center;
+}
+
+.background-color{
+    width: 92rem;
+    height: 42rem;
     background-color: #fff;
-    width: 120rem;
-    height: 50rem;
-    margin: 7rem 30rem;
+    display: flex;
 }
 .news{
     display: inline-block;
-    width: 22rem;
+    width: 43rem;
     padding: 4rem 4rem;
     font-size: var(--fs-normal);
+    color: #000;
 }
 .news h1, p, time{
-    color: #000;
-    
-}
-.photo h1, p{
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
     color: #000;
 }
-.news h1{
-    margin-bottom: 1rem;
-}
-.news p{
-    margin-bottom: 0.3rem;
-}
-.news button{
-    margin-bottom: ;
+.line{
+    transform: rotate(360deg);
+    width: 0.5rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+
 }
 .photo{
-    width: 22rem;
-    padding-left: 8rem;
-    padding-top: 4rem;
-}
-.photo h1{
-
+    
+    width: 44rem;
 }
