@@ -5,9 +5,10 @@
 
     --font-default: 'PT Sans Narrow', sans-serif;
 
-    --fs-normal: 1.6rem;
+    --fs-normal: 1.4rem;
     --fs-large: 2.02rem;
     --fs-big: 3rem;
+    --fs-medium: 2.3rem;
 }
 
 *{
@@ -18,6 +19,10 @@
     color: #fff;
     text-transform: uppercase;
     font-family: var(--font-default);
+}
+#sign p, h1{
+    padding: 0;
+    margin: 0;
 }
 body{
     background-image: url(../images/background.png);
@@ -75,7 +80,7 @@ header{
 }
 .impact-container{
     font-family: var(--font-default);
-    font-size: var(--fs-large);
+    font-size: var(--fs-normal);
     display: flex;
     justify-content: center;
     text-align:center;
@@ -86,7 +91,7 @@ header{
     color: #fff;
 }
 .impact-container h2{
-    font-size: 3rem;
+    font-size: var(--fs-big);
     font-weight: bold;
 }
 .impact-container p{
@@ -100,8 +105,9 @@ header{
 .background-color{
     width: 92rem;
     height: 42rem;
-    background-color: #fff;
+    background-color: #F7F3F0;
     display: flex;
+    justify-content: center;
 }
 .news{
     display: inline-block;
@@ -114,16 +120,192 @@ header{
     padding-bottom: 2rem;
     padding-left: 2.5rem;
     color: #000;
+    font-weight: bold;
+}
+.news h1{
+    font-size: var(--fs-big);
+}
+.button{
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4.6rem;
+    background-color: #000;
+
 }
 .line{
     transform: rotate(360deg);
     width: 0.5rem;
+    display: flex;
+    justify-content: center;
+    height: 27rem;
+    padding-top: 7.3rem;
+    padding-left: 1.9rem;
+}
+.paragraph{
+    padding-right: 8.8rem;
+    font-size: var(--fs-normal);
+}
+.photo{
+    padding-top: 4rem;
+    padding-left: 8.8rem;
+    width: 44rem;
+    justify-content: center;
+}
+.photo h1{
+    padding-bottom: 2rem;
+    color: #000;
+    font-weight: bold;
+    font-size: var(--fs-big);
+}
+.alpha{
+    width: 30rem;
+    height: 18rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:white;
+}
+#button{
+    padding-top: 3.6rem;
+}
+#button div{
+    width: 32rem;
+    height: 4.5rem;
+    justify-content: start;
+    display: flex;
+    gap:2rem;
+}
+#contact-imformation{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.background-color2{
+    width: 92rem;
+    height: 39rem;
+    background-color: #F7F3F0;
+    display: flex;
+    justify-content: center;
+}
+.contact-information{
+    display: inline-block;
+    width: 43rem;
+    padding: 4rem 4rem;
+    font-size: var(--fs-normal);
+    color: #000;
+}
+.contact-information h1{
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    color: #000;
+    font-weight: bold;
+    font-size: var(--fs-big);
+}
+.contact-information p{
+    padding-left: 2.5rem;
+}
+#button2{
+    display: flex;
+}
+#button2 div{
+    width: 32rem;
+    height: 4.5rem;
+    justify-content: start;
+    display: flex;
+    gap:2rem;
+}
+#sign{
+    padding-top: 4rem;
+    padding-left: 8.8rem;
+    width: 44rem;
+}
+#sign h1{
+    color: #000;
+    font-weight: bold;
+    font-size: var(--fs-big);
+}
+#sign p{
+    font-size: var(--fs-normal);
+}
+#date-time{
+    display: flex;
+    width: 30rem;
+    padding-top: 2.4rem;
+    gap: 2rem;
+}
+#date-time p{
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+input{
+    border-bottom: 0.2rem solid black;
+    padding: 0.39rem 1.37rem;
+}
+input[type="text"] {
+    font-family: var(--font-default);
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+  }
+.bo2{
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 26.8rem;
+    height: 4.6rem;
+
+    background-color: #000;
+}
+.footer{
+    margin-top: 6.5rem;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/footer.png);
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid black
+}
+.footer p, img{
+    margin-top: 6.5rem;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.friend{
+    text-align: center;
+    position: relative;
+    right: 9.8rem;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    right: 8.8rem;
+    bottom: 7.0rem;
+}
+.daulet{
+    width: 14.4rem;
+    height: 4rem;
     background-color: #000;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
-.photo{
-    
-    width: 44rem;
+.daulet p{
+    position: relative;
+    bottom: 2.4rem;
+    right: .9rem;
 }
