@@ -10,7 +10,10 @@
     --fs-big: 3rem;
     --fs-medium: 2.3rem;
 }
-
+button{
+    font-family: var(--font-default);
+    font-weight: bold;
+}
 *{
     margin: 0;
     padding: 0;
