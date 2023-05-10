@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+:root {
+    font-size: 62.5%; /* 10px */
+
+    --font-default: 'PT Sans Narrow', sans-serif;
+
+    --fs-normal: 1.4rem;
+    --fs-large: 2.02rem;
+    --fs-big: 3rem;
+    --fs-medium: 2.3rem;
+}
+button{
+    font-family: var(--font-default);
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: #fff;
+
+    text-transform: uppercase;
+    font-family: var(--font-default);
+
+    font-weight: bold;
+}
+#sign p, h1{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/background-price.png);
+    background-color:#fff;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: #000;
+    height: 7.5rem;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 14%;
+    align-items: center;
+}
+.nav ul{
+    font-family: var(--font-default);
+    font-size: var(--fs-normal);
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+.nav a:hover,
+.nav a:focus{
+    background-color: #242424;
+}
+.site-navigation{
+    display: flex;
+    gap: 4rem;
+}
+
+.user-navigation{
+    height: 100%;
+}
+
+.user-navigation li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.user-navigation:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.login-images{
+    position: relative;
+    top: .29rem;
+}
